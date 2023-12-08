@@ -1,0 +1,107 @@
+html,
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+
+}
+
+/* Bootstrap row adds -15 margin and will add on top of any other row. This removes that default -15 */
+.row {
+    margin: 0;
+}
+
+
+.page-header {
+    height: 10rem;
+
+}
+
+.maxx-logo {
+    height: 5rem;
+    max-width: auto;
+}
+
+
+
+.hello-title > p {
+    color: #3D3D3D;
+    font-size: 28px;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+
+.portfolio {
+    font-size: 28px;
+    color: #3D3D3D;
+}
+
+
+.image-one, .image-two, .image-three {
+    width: 100%;
+    max-height: 100%;
+}
+
+
+
+
+.hero-img {
+    height: 40vh;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+}
+
+
+.border-primary {
+    border-color: #0D4B6E !important;
+    opacity: 100;
+}
+
+
+
+.technoline-box>h3,
+.majestique-box>h3,
+.silverzim-box>h3 {
+    font-size: 24px;
+    color: #3D3D3D;
+}
+
+.technoline-box>p,
+.majestique-box>p,
+.silverzim-box>p {
+    font-family: 'Baskervville', serif;
+    font-size: 18px;
+    color: #BB1F25;
+}
+
+.custom-hr {
+    border-top: 1px solid #0D4B6E;
+}
+
+
+hr {
+    color: #0D4B6E !important;
+
+}
+
+
+
+.footer {
+    background-color: #3d3d3d;
+    padding: 2.5rem;
+    margin-top: auto;
+    font-size: 18px;
+}
+
+
+
+/* Media Query */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+
+    .hello-title {
+        text-wrap: nowrap;
+    }
+}
+
